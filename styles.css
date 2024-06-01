@@ -6,8 +6,14 @@
     height: 100vh;
 }
 
+.contenedorExt{
+    display: flex;
+    flex-basis: content;
+}
+
 .contenedorInt{
     display: block;
+    flex-basis: content;
 }
 
 .up-section{
@@ -19,11 +25,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-basis: content;
 }
 
 .p{
-    
     color:#06283D;
 }
 
