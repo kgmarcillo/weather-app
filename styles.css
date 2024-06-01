@@ -8,12 +8,29 @@
 
 .contenedorExt{
     display: flex;
-    flex-basis: content;
+    flex-direction: column;
 }
 
 .contenedorInt{
-    display: block;
+    display: flex;
+    flex-direction: column;
     flex-basis: content;
+}
+
+.temperatura{
+    display: flex;
+    flex-direction: row;
+}
+
+.down-section-left{
+    display: flex;
+    text-align: left;
+}
+
+.down-section-right{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
 }
 
 .up-section{
@@ -21,7 +38,8 @@
     flex-direction: row;
     justify-content:space-between;
 }
-.imagenC{
+
+.imagen-section{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -45,8 +63,4 @@
 .clima{
     height: 15vh;
     width: 15vh;
-}
-
-@media screen and (min-width: 400px)
-{
 }
