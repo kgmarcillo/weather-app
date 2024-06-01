@@ -26,6 +26,7 @@
 .down-section-left{
     display: flex;
     text-align: left;
+
 }
 
 .down-section-right{
@@ -60,6 +61,11 @@
     justify-content: center;
     background-color: #fff;
     border-radius: 5%;
+}
+
+.down-section{
+    display: flex;
+    justify-content: space-between;
 }
 
 .clima{
