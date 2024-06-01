@@ -19,7 +19,8 @@
 
 .temperatura{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
 }
 
 .down-section-left{
@@ -42,6 +43,7 @@
 .imagen-section{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
