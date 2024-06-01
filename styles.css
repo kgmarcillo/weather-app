@@ -1,0 +1,48 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06283D;
+    height: 100vh;
+}
+
+.contenedorInt{
+    display: block;
+}
+
+.up-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.imagenC{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: content;
+}
+
+.p{
+    
+    color:#06283D;
+}
+
+#tarjeta{
+    padding: 0%;
+    margin: 0%;
+    width: 400px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.clima{
+    height: 15vh;
+    width: 15vh;
+}
+
+@media screen and (min-width: 400px)
+{
+}
